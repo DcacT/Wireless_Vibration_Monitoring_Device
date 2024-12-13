@@ -1,4 +1,3 @@
-import excel_operation as exop
 import asyncio
 import logging
 from ble_serial.bluetooth.ble_interface import BLE_interface

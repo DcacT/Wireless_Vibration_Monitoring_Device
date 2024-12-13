@@ -23,6 +23,6 @@ if not exist "data/reports" (
 ) else (
     echo Folder "data/reports" already exists.
 )
-start cmd /k "python visualizer.py"
-start cmd /k "python bt_receiver.py"
+::start cmd /k "./scripts/python visualizer.py"
+start cmd /k ".scripts/python bt_receiver.py"
 pause
